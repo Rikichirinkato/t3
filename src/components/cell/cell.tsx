@@ -1,7 +1,7 @@
 import { ECellValue, IParams } from '../models';
 import './cell.css';
 
-function Cell(params: IParams) {
+function Cell(params: IParams): JSX.Element {
     return <div className='Cell'>
                {
                    params.value === ECellValue.Empty

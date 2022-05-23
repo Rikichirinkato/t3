@@ -3,7 +3,7 @@ import Cell from '../cell/cell';
 import { ECellValue, IParams } from '../models';
 import './wrapper.css'
 
-function Wrapper() {
+function Wrapper(): JSX.Element {
     const initCells = [
         {value: ECellValue.Empty},
         {value: ECellValue.Empty},
